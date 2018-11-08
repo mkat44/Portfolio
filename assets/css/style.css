@@ -1,60 +1,70 @@
 body {
     background-image: URL(../images/upfeathers.png);
+    filter: grayscale(35%);
 }
 
 .heading {
     background-color: #2F0061;
-    color: #FFB000;
-    font-family: 'Notable', sans-serif;
+    color: whitesmoke;
+    font-style: bold;
+    font-family: 'Kumar One Outline', cursive;
     border-style: hidden hidden solid hidden;
     border-width: 2%;
-    border-color: #FFB000;
+    border-color: darkgray;
     padding: 1%;
 }
 
 a:link {
-    color: #F2D700;
+    color: whitesmoke;
+    font-family: 'Notable', sans-serif;
 }
 
 a:hover {
-    color: #FFB000;
+    color: darkgray;
+    font-family: 'Notable', sans-serif;
 }
 
 a:visited {
-    color: #FFB000;
+    color: gray;
+    font-family: 'Notable', sans-serif;
 }
 
 .container {
-    background-color: rgb(255, 255, 238);
+    background-color: whitesmoke;
     margin: 0% auto;
     padding: 1%;
     min-height: 100%;
-    border-style: hidden solid hidden solid;
-    border-width: 2%;
-    border-color: #FFB000;
+    border-style: hidden double hidden double;
+    border-width: 5%;
+    border-color: darkgray;
+    font-family: 'Nunito', sans-serif;
 }
 
 .big {
     color: #2F0061;
-    font-family: 'Notable', sans-serif;
+    font-family: 'Kumar One Outline', cursive;
     font-style: strong;
     padding: 1%;
     border-style: hidden hidden solid hidden;
     border-width: 1%;
-    border-color: #FFB000;
+    border-color: darkgray;
 }
 
 img {
     margin: 2%;
 }
 
+#portpic {
+    max-width: 24rem;
+}
+
 .footer {
     background-color: #2F0061;
-    color: #F2D700;
-    font-family: 'Notable', sans-serif;
+    color: whitesmoke;
+    font-family: 'Kumar One Outline', cursive;
     border-style: solid hidden hidden hidden;
     border-width: 2%;
-    border-color: #FFB000;
+    border-color: darkgray;
     text-align: center;
     padding: 1%;
 }
